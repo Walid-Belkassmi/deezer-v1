@@ -3,7 +3,7 @@
 /* 
 - Rouge: #ef5466
 - Bleu: #2d96c8
-- Gris clair: #f9f9f9
+- Gris clair: #F1F1F1
 - Gris foncé: #8e8e94
  */
 
@@ -23,11 +23,12 @@ header .logo{
     margin-left: 50px;
 }
 
+
 header nav{
     position: absolute;
     right: 0px;
     top: 15px;
-    margin-right: 50px;
+    margin-right: 80px;
 }
 
 header nav a{
@@ -51,6 +52,7 @@ header button.connexion{
     background-color: #fff;
     color: #2d96c8;
     border-color: #2d96c8;
+    margin-right: 20px;
 }
 
 header button.inscription{
@@ -60,7 +62,14 @@ header button.inscription{
 }
 
 header section.emotion{
-    height: 1000px;
+    border-top: 3px solid #F1F1F1;
+    margin-top: 20px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    height: 400px;
     background-image: url(./img/hero.png);
+    background-size: 640px;
+    background-repeat: no-repeat;
+    background-position-x: 660px;
 }
 
