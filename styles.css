@@ -11,6 +11,10 @@ body{
     font-family: 'Roboto', sans-serif;;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
 /* header */
 
 header{
@@ -64,8 +68,6 @@ header button.inscription{
 header section.emotion{
     border-top: 3px solid #F1F1F1;
     margin-top: 20px;
-    /* margin-left: 50px;
-    margin-right: 50px; */
     height: 400px;
     background-image: url(./img/hero.png);
     background-size: 640px;
@@ -73,3 +75,41 @@ header section.emotion{
     background-position-x: 660px;
 }
 
+header section.emotion h1{
+    color: #1a1616;
+    font-size: 50px;
+    font-weight: bold;
+    max-width: 550px;
+}
+
+header section.emotion h2{
+    color: #ef5466;
+    font-size: 30px;
+    font-weight: bold;
+    max-width: 540px;
+}
+
+header section.emotion button{
+    margin-top: 30px;
+}
+
+header section.emotion button.btn_premium{
+    background-color: #ef5466;
+    color: #fff;
+    border-color: #ef5466;
+    width: 190px;
+    margin-right: 40px;
+    padding: 15px 0 15px 0
+}
+
+header section.emotion button.btn_gratuit{
+    background-color: #fff;
+    color: #1a1616;
+    border-color: #1a1616;
+    width: 190px;
+    padding: 15px 0 15px 0
+}
+
+header section.emotion article.slogan{
+    margin: 90px 0 0 90px;
+}
