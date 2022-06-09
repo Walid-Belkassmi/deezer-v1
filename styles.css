@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+/* 
+- Rouge: #ef5466
+- Bleu: #2d96c8
+- Gris clair: #f9f9f9
+- Gris foncé: #8e8e94
+ */
+
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+
+/* header */
+
+header{
+    margin-top: 15px;
+}
+
+header .logo{
+    width: 150px;
+    position: relative;
+    margin-left: 50px;
+}
+
+header nav{
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    margin-right: 50px;
+}
+
+header nav a{
+    margin-right: 30px;
+    color: #1a1616;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header button{
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 105px;
+    border-radius: 50px;
+}
+
+header button.connexion{
+    background-color: #fff;
+    color: #2d96c8;
+    border-color: #2d96c8;
+}
+
+header button.inscription{
+    background-color: #2d96c8;
+    color: #fff;
+    border-color: #2d96c8;
+}
+
+header section.emotion{
+    height: 1000px;
+    background-image: url(./img/hero.png);
+}
+
