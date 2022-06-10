@@ -127,6 +127,7 @@ section.description h2{
     color: #1a1616;
     font-size: 30px;
     font-weight: bold;
+    margin-left: 95px;
 }
 
 section.description h3{
@@ -135,6 +136,7 @@ section.description h3{
     font-weight: bold;
     width: 300px;
     padding-bottom: 15px;
+    margin-top: 50px;
 }
 
 section.description p{
@@ -146,25 +148,24 @@ section.description p{
 }
 
 section.grille{
-    border: 5px solid red;
-    margin: 50px;
     display: flex;
+    margin-left: 115px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 90%;
 }
 
 section.journal{
-    border: 5px solid blue;
     width: 80%;
     display: flex;
     flex-direction: column;
 }
 
 div.img_phone{
-    border: 5px solid green;
     width: 20%;
 }
 
 div.container{
-    border: 2px solid purple;
     display: flex;
     flex-wrap: wrap;
     width: 80%;
@@ -177,3 +178,33 @@ article.description{
     flex-wrap: wrap;
 }
 
+/* section partout */
+section.partout{
+    background-color: #ef5466;
+    color: #fff;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.partout section.svg i{
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+section.partout article.exemple{
+    margin-left: 40px;
+}
+
+section.partout article.exemple h2{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+section.partout article.exemple p{
+    font-size: 15px;
+    width: 445px;
+}
