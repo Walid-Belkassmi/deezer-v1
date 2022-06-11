@@ -374,7 +374,7 @@ section.abonnement article.abonnement1{
     background-color: lightgrey;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-top: 10px;
     padding:20px 100px
 }
 
@@ -434,7 +434,7 @@ section.abonnement article.abonnement1 button.btn2{
 /* footer */
 footer{
     background-color: #1a1616;
-    height: 300px;
+    height: 500px;
 }
 
 footer div.telechargement{
@@ -452,4 +452,49 @@ footer div.telechargement i.apple{
 
 footer div.colonne{
     display: flex;
+    justify-content: space-around;
 }
+
+footer div.colonne li{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+footer div.colonne li h3.title{
+    color: lightgray;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+div.partage{
+margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.reseau{
+    margin-left: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+
+div.liste-deroulante{
+    color: darkgray;
+    font-size: 15px;
+    display: flex;
+    margin-right: 50px;
+}
+
+div.liste-deroulante p{
+    margin-right: 5px;
+}
+
+div.liste-deroulante select{
+    -webkit-appearance: none;
+    background: inherit;
+    color: #fff;
+}
+/* responsive */
