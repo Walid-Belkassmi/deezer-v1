@@ -365,3 +365,27 @@ section.forfait p{
 
 /* abonnement */
 
+section.abonnement{
+    background-color: #fff;
+}
+
+section.abonnement article.abonnement1{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+section.abonnement article.abonnement1 div.contenant{
+    display: flex;
+    flex-direction: column;
+}
+
+section.abonnement article.abonnement2{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+section.abonnement article.abonnement3{
+    display: flex;
+}
