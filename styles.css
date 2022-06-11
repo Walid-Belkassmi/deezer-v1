@@ -245,7 +245,7 @@ section.forfait div.all-cards div.card article.carte{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 400px;
+    height: 450px;
     width: 200px;
     margin-right: 5px;
 }
@@ -267,9 +267,11 @@ section.forfait div.all-cards div.card article.carte h4{
 }
 
 section.forfait div.all-cards div.card article.article1{
+    border-radius: 5px;
     background-color: #fff;
-    -webkit-box-shadow: -10px 5px 30px 1px rgba(0,0,0,0.75);
     color: #1a1616; 
+    -webkit-box-shadow: -10px 5px 30px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -10px 5px 30px 1px rgba(0,0,0,0.75);
 }
 
 section.forfait div.all-cards div.card article.article1 button{
@@ -284,23 +286,82 @@ section.forfait div.all-cards div.card article.article1 button{
 }
 
 section.forfait div.all-cards div.card article.article2{
+    border-radius: 5px;
     background-color: #2d96c8;
     color: #fff; 
 }
 
+section.forfait div.all-cards div.card article.article2 a{
+text-decoration: none;
+font-size: 15px;
+font-weight: bold;
+color: #fff;
+padding-bottom: 30px;
+}
+
+section.forfait div.all-cards div.card article.article2 button, section.forfait div.all-cards div.card article.article3 button{
+    color: #fff;
+    margin-top: 20px;
+    background-color: #ef5466;
+    border-color: #ef5466;
+    width: 130px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+section.forfait div.all-cards div.card article.article2 h4.offert, section.forfait div.all-cards div.card article.article3 h4.offert{
+    padding-top: 25px;
+    font-weight: bold;
+}
+
 section.forfait div.all-cards div.card article.article3{
+    border-radius: 5px;
     background-color: #fff;
     -webkit-box-shadow: 10px 5px 30px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 5px 30px 1px rgba(0,0,0,0.75);
 }
 
 section.forfait div.all-cards div.card article.carte ul li{
     padding-bottom: 10px;
 }
 
-/* section.forfait div.all-cards div.card article.carte ul li.check{
-    list-style-image: url(./img/check.png);
+section.forfait div.all-cards div.card article.article1 ul li.check, section.forfait div.all-cards div.card article.article3 ul li.check{
+    /* list-style-type: url(./img/check.png); */
+    color: rgb(106, 103, 103);
 }
 
-section.forfait div.all-cards div.card article.carte ul li.cross{
-    list-style-image: url(./img/cross.png);
-} */
+section.forfait div.all-cards div.card article.article1 a, section.forfait div.all-cards div.card article.article3 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #2d96c8;
+    padding-bottom: 30px;
+}
+
+section.forfait div.all-cards div.card article.article1 a, section.forfait div.all-cards div.card article.article3 h4.offert{
+    color: #2d96c8;
+    font-weight: bold;
+}
+
+section.forfait div.all-cards div.card article.article1 ul li.cross{
+    /* list-style-image: url(./img/cross.png); */
+    color: rgba(106, 103, 103, .4);
+}
+
+section.forfait div.all-cards div.card article.article2 ul li.cross{
+    color: rgba(255, 255, 255, .2);
+}
+
+section.forfait p{
+    color: lightgrey;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-size: 10px;
+}
+
+/* abonnement */
+
