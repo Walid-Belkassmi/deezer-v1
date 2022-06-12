@@ -662,6 +662,31 @@ div.liste-deroulante select{
     }
 
 /* footer */
+    footer{
+        height: 100%;
+    }
 
+    footer div.colonne{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
+    }
 
+    div.partage{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.reseau{
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    div.img-logo{
+        margin-bottom: 20px;
+    }
+
+    div.liste-deroulante{
+        margin-right: 0;
+    }
 }
