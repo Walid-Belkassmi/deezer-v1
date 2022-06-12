@@ -616,22 +616,53 @@ div.liste-deroulante select{
 
 /* section forfait */
 
-section.forfait div.all-cards{
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-}
+    section.forfait div.all-cards{
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
 
-section.forfait div.card{
-    margin-bottom: 30px;
-}
+    section.forfait div.card{
+        margin-bottom: 30px;
+    }
 
-section.forfait p{
-    margin-top: 0;
-}
+    section.forfait p{
+        margin-top: 0;
+    }
 
-section.forfait h5{
-    display: none;
-}
+    section.forfait h5{
+        display: none;
+    }
+
+/* section abonnement */
+    section{
+        display: inline;
+        overflow: hidden;
+    }
+
+
+    section.abonnement p{
+        display: none;
+    }
+
+    section.abonnement h3{
+        font-size: 16px;
+    }
+
+    section.abonnement a{
+        margin-bottom: 10px;
+    }
+
+    section.abonnement article.abonnement1{
+        flex-direction: column;
+    }
+
+    section.abonnement article.abonnement1 button.btn2{
+        padding: 10px 45px;
+    }
+
+/* footer */
+
+
 }
