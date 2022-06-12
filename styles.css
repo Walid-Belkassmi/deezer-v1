@@ -35,6 +35,10 @@ header nav{
     margin-right: 80px;
 }
 
+header img.burger{
+    display: none;
+}
+
 header nav a{
     margin-right: 30px;
     color: #1a1616;
@@ -469,10 +473,14 @@ footer div.colonne li h3.title{
 }
 
 div.partage{
-margin-top: 50px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+div.partage div.img-logo img{
+    width: 160px;
 }
 
 div.reseau{
@@ -498,3 +506,35 @@ div.liste-deroulante select{
     color: #fff;
 }
 /* responsive */
+
+@media (max-width: 768px) {
+
+/* header */
+    header img.logo{
+        width: 150px;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    header img.burger{
+        display: inline;
+    }
+
+    section.emotion article.slogan h1{
+        text-align: center;
+        max-width: 210px;
+        font-size: 20px;
+    }
+
+    section.emotion h2{
+        text-align: center;
+        font-size: 15px;
+        max-width: 210px;
+    }
+
+    section.forfait{
+        display: none;
+    }
+}
